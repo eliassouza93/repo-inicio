@@ -34,9 +34,9 @@ function Navbar() {
     }]
     return (
         <nav className="nav">
-            <div  className="nav__brand">
+            <h1  className="nav__brand">
                 LOGO TELA INCIAL
-            </div>
+            </h1>
             <ul className={active}>
                 {rotas.map((rota, index) => (
                     <li key={index} className="nav__item">
