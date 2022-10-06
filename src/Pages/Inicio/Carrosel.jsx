@@ -4,6 +4,7 @@ import binary from './Assets-slide/binary.jpg'
 import binary1 from './Assets-slide/binary1.jpg'
 import code from './Assets-slide/code.jpg'
 import code1 from './Assets-slide/code1.jpg'
+import code2 from './Assets-slide/code2.png'
  
 
 function UncontrolledExample() {
@@ -57,6 +58,19 @@ function UncontrolledExample() {
 
                         </p>
                     </Carousel.Caption>
+                    <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={code2}
+                        alt="Third slide"
+                    />
+                    <Carousel.Caption>
+                        <h3> </h3>
+                        <p>
+
+                        </p>
+                    </Carousel.Caption>
+                </Carousel.Item>
                 </Carousel.Item>
             </Carousel>
         </div>

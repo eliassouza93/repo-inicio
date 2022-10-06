@@ -8,6 +8,7 @@ export default function Rodape() {
 
     <div className={style.bloco}>
       <div className={style.titulo}>
+        <hr />
         <p>Desenvolvido, por Elias de Souza</p>
       </div>
       <div className={style.sociais}>

@@ -12,7 +12,7 @@ html {
   align-items: center;
   justify-content: space-around;
   height: 15vh;
-  background-color: #333;
+  background-color: rgb(12, 12, 12);
 }
 .nav__brand {
   text-transform: uppercase;
@@ -55,9 +55,9 @@ html {
     position: fixed;
     top: 30vh;
     right: 0;
-    height: 70vh;
+    height: 49vh;
     width: 100vw;
-    background-color: #333;
+    background-color: rgb(12, 12, 12);
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.4s ease-in;
