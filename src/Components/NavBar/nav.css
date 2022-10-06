@@ -53,7 +53,7 @@ html {
   }
   .nav__menu {
     position: fixed;
-    top: 30vh;
+    top:16vh;
     right: 0;
     height: 49vh;
     width: 100vw;
