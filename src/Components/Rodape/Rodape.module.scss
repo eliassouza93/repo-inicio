@@ -1,11 +1,33 @@
-.all {
-    color: #efefef;
-    font-size: 1.4rem;
+.bloco {
+    width: 100%;
+    background-color: rgba(214, 210, 210, 0.397);
+    height: 240px;
+
 }
 
-.contato {
-    text-decoration: none;
+.titulo {
+    text-align: center;
+    font-size: 15px;
+}
 
-  
+.sociais {
+    max-width: 200px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+
+    & img {
+        width: 40px;
+    }
+}
+
+.copy {
+    text-align: center;
+    font-size: 14px;
+    background-color: black;
+    color: rgba(167, 161, 161, 0.959);
 
 }
