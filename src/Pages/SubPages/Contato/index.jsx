@@ -7,8 +7,13 @@ export default function Contato() {
     const [mensagem, setMensagem] = useState('')
 
     function Agradece() {
-       
-        alert('Obrigado por sua mensagem: ' + nome.toUpperCase())
+        if(nome === ''){
+            alert('Digite seu nome')
+            
+        }else{
+            alert('Obrigado por sua mensagem: ' + nome.toUpperCase())
+            
+        }
         console.log(mensagem)
     }
 
@@ -32,8 +37,7 @@ export default function Contato() {
                 <div className={style.btn__pai} >
                     <button onClick={Agradece} className={style.btn}>Enviar</button>
                 </div>
-                {nome}
-
+ 
             </div>
 
         </div>
