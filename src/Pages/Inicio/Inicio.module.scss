@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0rem;
+
+
+}
+
+
+.teste {
+
+    & img {
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+        width: 100%;
+        height: 150px;
+    }
+}
+
+.texto__pai {
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+    max-width: 850px;
+
+
+}
+
+.h2M {
+    font-size: 29px;
+
+}
+
+.texto {
+    font-size: 2.2rem;
+    margin-top: 25px;
+    letter-spacing: 0px;
+
+}
+
+.normal {
+
+    width: 100%;
+    height: auto;
+    padding: 5px;
+
+}
+
+.imagem {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    background-image: url(assets/code.jpg);
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
+    object-fit: cover;
+
+}
+
+.imagem1 {
+    color: white;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    background-image: url(assets/cd.png);
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
+
+}
+.fim{
+    height: 30px;
+}
+    
+
+@media screen and (max-width: 768px) {
+ 
+    .normal{
+        height: auto;
+      
+    }
+    .texto{
+        letter-spacing: -1px;
+    }
+    .imagem,.imagem1{
+        height: 100px;
+    }
+ 
+  
+}
