@@ -1,5 +1,5 @@
 .sobre {
-    height: 75vh;
+    height: 90vh;
     width: 100%;
 
     & h4 {
@@ -10,14 +10,14 @@
         font-weight: 300;
     }
 }
- 
+
 
 .caixa {
     padding-top: 20px;
     width: 95%;
     margin: auto;
     max-width: 380px;
- 
+
     & p {
         font-size: 2.5rem;
         font-weight: 400;
@@ -31,8 +31,30 @@
     }
 
 }
-.divr{
+
+.divr {
     display: flex;
 
- 
+
+}
+
+@media screen and (max-width: 768px) {
+    .caixa {}
+
+    .divr {
+
+
+    }
+
+    p {
+        width: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    span {
+        width: 100%;
+    }
 }
