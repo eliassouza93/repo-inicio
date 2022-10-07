@@ -23,7 +23,7 @@ export default function Inicio() {
                     Atualmente estou cursando Analise e Desenvolvimento de Sistema na Universidade Uninter e também estudando linguagens de programação na Alura, onde conquistei meus primeiros certificados.
                 </p>
             </section>
-            <section id='img2' className={style.imagem1}>
+            <section id='img2' className={style.imagem}>
                 <p className={style.texto}>
 
                 </p>
