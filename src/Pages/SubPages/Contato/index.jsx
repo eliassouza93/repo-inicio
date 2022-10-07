@@ -4,7 +4,7 @@ import style from './Contato.module.scss'
 
 export default function Contato() {
     const [nome, setNome] = useState('')
-    const [mensagem, setMensagem] = useState('')
+    
 
     function Agradece() {
         if(nome === ''){
@@ -14,7 +14,7 @@ export default function Contato() {
             alert('Obrigado por sua mensagem: ' + nome.toUpperCase())
             
         }
-        console.log(mensagem)
+       
     }
 
     return (
@@ -31,7 +31,7 @@ export default function Contato() {
                 </label>
                 <label className={style.msg__pai} htmlFor="mensagem">Mensagem
 
-                    <input type="text" id='mensagem' placeholder='digíte sua mensagem' className={style.msg} value={mensagem} onChange={(e) => setMensagem(e.target.value)} />
+                    <textarea placeholder='digite sua mensagem' className={style.msg} name="texto" id="mensagem"></textarea>
 
                 </label>
                 <div className={style.btn__pai} >

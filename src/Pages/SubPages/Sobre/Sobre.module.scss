@@ -1,4 +1,38 @@
-.sobre{
-    height: 100vh;
+.sobre {
+    height: 75vh;
     width: 100%;
+
+    & h4 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 3rem;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+}
+ 
+
+.caixa {
+    padding-top: 20px;
+    width: 95%;
+    margin: auto;
+    max-width: 380px;
+ 
+    & p {
+        font-size: 2.5rem;
+        font-weight: 400;
+        letter-spacing: -1px;
+
+    }
+
+    & span {
+        font-size: 19px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+}
+.divr{
+    display: flex;
+
+ 
 }

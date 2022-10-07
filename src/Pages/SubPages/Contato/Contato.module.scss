@@ -10,10 +10,10 @@
     width: 99%;
     margin: auto;
     margin-top: 100px;
-    height: 45vh;
+    height: auto;
     border: 1px solid rgba(100, 96, 96, 0.425);
     padding: 10px;
-    max-width: 900px;
+    max-width: 800px;
  
 }
 label,input{
@@ -23,7 +23,7 @@ label,input{
 
 }
 input{
-    height: 45px;
+    height: 40px;
     border: 1px solid rgb(129, 125, 125);
     border-radius: 5px;
 }
@@ -32,6 +32,11 @@ input{
 }
 .btn__pai{
     margin-top: 15px;
+
+}
+  .msg {
+    height: 100px;
+    width: 100%;
 }
 .btn{
     width: 50%;
