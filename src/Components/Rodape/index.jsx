@@ -9,7 +9,7 @@ export default function Rodape() {
     <div className={style.bloco}>
       <div className={style.titulo}>
         <hr />
-        <p>Desenvolvido, por Elias de Souza</p>
+        <p className={style.titulo}>Desenvolvido, por Elias de Souza</p>
       </div>
       <div className={style.sociais}>
         <a href="https://www.linkedin.com/in/elias-souza-784379220/" target="_blank" rel="noopener noreferrer"   > <img src={linkedin} alt="linkedin" /> </a>
@@ -17,7 +17,7 @@ export default function Rodape() {
         <a href="https://api.whatsapp.com/send?phone=5548998064305" target="_blank" rel="noopener noreferrer"  >  <img src={whatsapp} alt="whatsapp" /> </a>
       </div>
       <div className={style.copy}>
-        <p>&copy; Dev Elias, 2022. All rights reserved. </p>
+        <p className={style.copy}>&copy; Dev Elias, 2022. All rights reserved. </p>
       </div>
     </div>
   )

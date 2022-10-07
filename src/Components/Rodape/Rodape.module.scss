@@ -1,13 +1,12 @@
 .bloco {
     width: 100%;
- 
     height: 100px;
 
 }
 
 .titulo {
-    text-align: center;
-    font-size: 13px;
+    font-size: 12px;
+    justify-content: center;
 }
 
 .sociais {
@@ -17,7 +16,7 @@
     display: flex;
     justify-content: space-evenly;
     height: 100px;
-    align-items: center;
+   
 
     & img {
         width: 40px;
@@ -25,9 +24,13 @@
 }
 
 .copy {
-    text-align: center;
-    font-size: 12px;
+    width: 100%;
+    font-size: 11px;
     background-color: black;
     color: rgba(167, 161, 161, 0.959);
-
+    margin: auto;
+    justify-content: center;
+  
+ 
 }
+ 

@@ -1,10 +1,9 @@
 import style from './Inicio.module.scss'
-
-
+ 
 export default function Inicio() {
     return (
         <div className={style.texto__pai}>
-
+        
             <h2 className={style.h2M}>Olá, me chamo Elias,</h2>
 
             <section className={style.normal}>
