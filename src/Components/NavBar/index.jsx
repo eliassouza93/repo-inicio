@@ -25,12 +25,12 @@ function Navbar() {
         label: 'Projetos',
         to: '/projetos'
     }, {
+        label: 'Conhecimentos',
+        to: './conhecimentos'
+
+    }, {
         label: 'Sobre',
         to: './sobre'
-    }, {
-        label: 'Contato',
-        to: './contato'
-
     }]
     return (
         <nav className="nav">
