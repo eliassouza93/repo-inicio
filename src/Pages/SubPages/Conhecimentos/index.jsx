@@ -7,7 +7,7 @@ export default function Conhecimentos() {
     return (
         <div className={style.container}>
             <div className={style.bloco}>
-            <h1>Conhecimentos</h1>
+            <h4>Conhecimentos</h4>
                 <div className={style.info}>
                    
                     <div>

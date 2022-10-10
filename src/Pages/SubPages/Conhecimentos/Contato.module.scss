@@ -8,19 +8,20 @@
     
  
  }
- h1{
+ h4{
     margin-top: 15px;
     font-size: 3.5rem;
     font-family: 'Italiana', serif;
     text-align: center;
     letter-spacing: -1px;
+    text-decoration: underline ;
 }
  .info{
-     margin: 9px;
+     
   
      & li{
          font-size:2.4rem;
-         margin-top: 30px;
+     
          margin-left: 5px;
      }
  }

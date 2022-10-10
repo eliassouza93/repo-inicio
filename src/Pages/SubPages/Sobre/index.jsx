@@ -4,25 +4,25 @@ export default function Sobre() {
     return (
         <div className={style.sobre}>
             <h4>Tecnologias ultilizadas para criação </h4>
-            <div className={style.caixa}>
+            <div className={style.info}>
 
                 <div className={style.divr}>
-                    <h1>&#8730;</h1>   <p>Editor de texto: <span>Visual Studio Code</span></p>
+                    <li>Editor de texto: <span>Visual Studio Code</span></li>
                 </div>
                 <div className={style.divr}>
-                    <h1>&#8730;</h1>   <p>Site construido com: <span>JavaScript | ReactJS</span></p>
+                    <li>Site construido com: <span>JavaScript | ReactJS</span></li>
                 </div>
                 <div className={style.divr}>
-                    <h1>&#8730;</h1>   <p>Marcador de Texto: <span>HTML</span></p>
+                    <li>Marcador de Texto: <span>HTML</span></li>
                 </div>
                 <div className={style.divr}>
-                    <h1>&#8730;</h1>   <p>Estilo: <span>SASS e CSS3</span></p>
+                    <li>Estilo: <span>SASS e CSS3</span></li>
                 </div>
                 <div className={style.divr}>
-                    <h1>&#8730;</h1>   <p>Repositório: <span>Github | Netify</span></p>
+                    <li>Repositório: <span>Github | Netify</span></li>
                 </div>
                 <div className={style.divr}>
-                    <h1>&#8730;</h1> <p>Tipo de site: <span>Portifólio</span></p>
+                    <li>Tipo de site: <span>Portifólio</span></li>
                 </div>
 
             </div>
